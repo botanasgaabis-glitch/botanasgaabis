@@ -204,9 +204,12 @@ p{
         width: 75px;
     }
 
+    #logo{
+        max-width: 75px;
+    }
+
     h1{
         font-size: 13px;
-        max-width: 150px;
     }
 
     h2{
@@ -225,6 +228,7 @@ p{
         border-radius: 35px 35px 0 0;
     }
 }
+
 
 
 
