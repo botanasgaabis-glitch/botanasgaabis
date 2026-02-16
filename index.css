@@ -200,12 +200,8 @@ p{
         display: none;
     }
 
-    #logo{
-        max-width: 75px;
-    }
-
     #personaje{
-        width: 50px;
+        width: 75px;
     }
 
     h1{
@@ -229,6 +225,7 @@ p{
         border-radius: 35px 35px 0 0;
     }
 }
+
 
 
 
