@@ -200,8 +200,12 @@ p{
         display: none;
     }
 
+    #inicio{
+        padding: 25px 0 0 0;
+    } 
+
     #personaje{
-        width: 125px;
+        width: 115px;
     }
 
     #logo{
@@ -230,6 +234,7 @@ p{
         padding: 25px 50px;
     }
 }
+
 
 
 
