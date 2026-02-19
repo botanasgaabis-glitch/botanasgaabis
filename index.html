@@ -17,10 +17,10 @@
             <nav>
                 <a href="index.html"><img id="logo" src="logo.png" alt="Logotipo"></a>
                 <ul>
-                    <li><a href="#inicio" class="seccion">INICIO</a></li>
+                    <li><a href="#" class="seccion">INICIO</a></li>
                     <li><a href="#nosotros" class="seccion">NOSOTROS</a></li>
-                    <li><a href="index.html" class="seccion">MARCAS</a></li>
-                    <li><a href="index.html" class="seccion">CONTACTO</a></li>
+                    <li><a href="#" class="seccion">MARCAS</a></li>
+                    <li><a href="#contacto" class="seccion">CONTACTO</a></li>
                 </ul>
             </nav>
         </header>
@@ -29,7 +29,7 @@
 
             <section id="inicio">
                 <img id="personaje" src="personaje.png" alt="Personaje de la marca">
-                <h1>El sabor detrás de cada gran idea.</h1>
+                <h1>El <em>sabor</em> detrás de cada gran idea</h1>
             </section>
 
             <section id="negocio">
@@ -46,6 +46,37 @@
                     Creemos que cada momento es mejor cuando se comparte algo delicioso, y por eso trabajamos con dedicación para ofrecer productos de calidad a precios accesibles. <br>
                     Nuestro objetivo es simple: endulzar tu día.</p>
 
+                    <div>
+                        <h3>Los valores que nos distinguen</h3>
+                        <p>
+                            Más que vender botanas, buscamos crear momentos especiales. 
+                            Estos son los valores que guían cada producto que ofrecemos 
+                            y la forma en que tratamos a nuestros clientes.
+                        </p>
+
+                        <dl>
+                            <dt>Calidad</dt>
+                            <dd>
+                                Seleccionamos cuidadosamente nuestros ingredientes y cuidamos 
+                                cada detalle en la preparación para ofrecer siempre un sabor 
+                                auténtico, fresco y delicioso.
+                            </dd>
+
+                            <dt>Calidez</dt>
+                            <dd>
+                                Creemos en la atención cercana y amable. Queremos que cada persona 
+                                que prueba nuestros productos se sienta bienvenida y parte 
+                                de nuestra comunidad.
+                            </dd>
+
+                            <dt>Compromiso</dt>
+                            <dd>
+                                Nos esforzamos por mantener responsabilidad y constancia 
+                                en cada entrega.
+                            </dd>
+                        </dl>
+                    </div>
+
                     <h3>¿Dónde puedes encontrar nuestros productos?</h3>
                     <p>Aunque no contamos con una tienda física propia, nuestros productos están disponibles en distintos puntos de venta. <br>
                     Consulta el mapa y encuentra la tienda más cercana donde puedes disfrutar de nuestras botanas y dulces.</p>
@@ -53,9 +84,30 @@
                     <h4>¡Cada vez estamos en más lugares cerca de ti!</h4>
 
                     <section id="mapa">
-                        <p>Aquí se visualizará un mapa con los negocios</p>
+                        <p>Aquí se visualizará un mapa con los <small>negocios</small></p>
                     </section>
                 </section>
+
+                <section id="contacto">
+                    <h2>Contáctanos</h2>
+                <p>Si eres una tienda local, puedes contactarnos para saber como adquirir nuestros productos.</p>
+
+                <form action="#" method="post">
+                    <label for="nombre">Nombre
+                        <input type="text" id="nombre" placeholder="Nombre con apellidos">
+                    </label>
+
+                    <label for="municipio">Municipio
+                        <select name="municipio" id="municipio">
+                            <option value="texcalyacac">San Mateo Texcalyacac</option>
+                            <option value="tianguistenco">Santiago Tianguistenco</option>
+                            <option value="tenancingo">Tenancingo de Degollado</option>
+                            <option value="tlaltizapan">San Pedro Tlaltizapan</option>
+                        </select>
+                    </label>
+                </form>
+
+            </section>
             </section>
 
         </main>

@@ -24,6 +24,11 @@
     src: url('MilligramBoldtrial.ttf') format('trueType');
 }
 
+@font-face {
+    font-family: 'Milligram';
+    src: url('MilligramRegular.ttf') format('truetype');
+}
+
 /* Animaciones */
 @keyframes aparicionSuave {
     0% {
@@ -48,6 +53,16 @@
     100%{
         transform: translateY(0);
     }
+}
+
+@keyframes aparicionTitulos {
+    0%{
+        transform: rotateX(-90deg);
+    }
+    100%{
+        transform: rotateX(0deg);
+    }
+    
 }
 
 html{
@@ -136,16 +151,18 @@ nav ul{
     border-top: 8px solid #1E79FC;
     background-color: whitesmoke;
     border-radius: 75px 75px 0 0;
-    padding: 20px 75px;
+    padding: 10px 75px;
     text-align: center;
     box-shadow: 0 -25px 25px rgba(0, 0, 0, 0.263);
 }
 
 h2{
+    margin-top: 50px;
     width: 100%;
     font-family: 'MilligramBold';
     font-size: 40px;
     text-align: center;
+    animation: aparicionTitulos 1s ease-out forwards;
 }
 
 h3{
@@ -154,6 +171,7 @@ h3{
     color:#1E79FC;
     font-family: 'MilligramBoldItalic';
     font-size: 30px;
+    margin-top: 55px;
 }
 
  h4{
@@ -165,15 +183,15 @@ h3{
  }
 
 p{
-    font-family: 'MontserratMedium';
+    font-family: 'Milligram';
     font-size: 18px;
     width: 100%;
-    line-height: 25px;
+    line-height: 20px;
 }
 
 #promociones{
     height: 250px;
-    margin: 75px 0;
+    margin: 25px 0;
     background-color: #042440;
 }
 
@@ -183,7 +201,28 @@ p{
 
 #mapa{
     height: 350px;
-    background-color: #B9FAED;
+    background: blue;
+    /* width: min(1100px, cal(100% + 40px)); */
+    /* display: inline-block; */
+}
+
+dl{
+    margin-top: 25px;
+}
+
+dt{
+    margin: 15px 0 5px 0;
+    font-family: 'MilligramBold';
+    font-size: 20px;
+}
+
+dd{
+    font-family: 'Milligram';
+    font-size: 17px;
+}
+
+#contacto{
+    padding: 50px 0;
 }
 
 
@@ -234,17 +273,3 @@ p{
         padding: 25px 50px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
